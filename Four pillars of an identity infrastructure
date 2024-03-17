@@ -1,0 +1,33 @@
+Administration
+-  Administration is about the creation and management/governance of identities for users, devices, and services. As an administrator, you manage how and under what circumstances the characteristics of identities can change (be created, updated, deleted).
+Authentication
+-  The authentication pillar tells the story of how much an IT system needs to know about an identity to have sufficient proof that they really are who they say they are. It involves the act of challenging a party for legitimate credentials.
+Authorization
+- The authorization pillar is about processing the incoming identity data to determine the level of access an authenticated person or service has within the application or service that it wants to access.
+Auditing
+- The auditing pillar is about tracking who does what, when, where, and how. Auditing includes having in-depth reporting, alerts, and governance of identities.
+Modern authentication
+-  is an umbrella term for authentication and authorization methods between a client, such as your laptop or phone, and a server, like a website or application. 
+At the center of modern authentication is the role of the identity provider. An identity provider creates, maintains, and manages identity information while offering authentication, authorization, and auditing services.
+
+Describe the concept of directory services and Active Directory
+- In the context of a computer network, a directory is a hierarchical structure that stores information about objects on the network. A directory service stores directory data and makes it available to network users, administrators, services, and applications.
+
+Describe the concept of federation
+- Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between the respective domain’s identity provider. 
+With federation, there's no need for a user to maintain a different username and password when accessing resources in other domains.
+- The website, in domain A, uses the authentication services of Identity Provider A (IdP-A).
+- The user, in domain B, authenticates with Identity Provider B (IdP-B).
+- IdP-A has a trust relationship configured with IdP-B.
+- When the user, who wants to access the website, provides his/her credentials to the website, the website trusts the user and allows access. This access is allowed because of the trust that is already established between the two identity providers.
+
+/* ---> Describe Microsoft Entra ID <---- */
+Basic terminology
+Tenant -  Microsoft Entra tenant is an instance of Microsoft Entra ID in which information about a single organization resides including organizational objects such as users, groups, devices, and application registrations. 
+A tenant also contains access and compliance policies for resources, such as applications registered in the directory. 
+Each Microsoft Entra tenant has a unique ID (tenant ID) and a domain name (for example, contoso.onmicrosoft.com) and serves as a security and administrative boundary, allowing the organization to manage and control access to resources, applications, devices, and services.
+Directory - The terms Microsoft Entra directory and Microsoft Entra tenant are often used interchangeably. 
+The directory is a logical container within a Microsoft Entra tenant that holds and organizes the various resources and objects related to identity and access management including users, groups, applications, devices, and other directory objects. Basically, the directory is like a database or catalog of identities and resources associated with an organization's tenant. 
+A Microsoft Entra tenant consists of only one directory.
+Multi-tenant - A multi-tenant organization is an organization that has more than one instance of Microsoft Entra ID. 
+Reasons why an organization might have multiple tenants include organizations with multiple subsidiaries or business units that operate independently, organizations that merge or acquire companies, multiple geographical boundaries with various residency regulations, and more.
