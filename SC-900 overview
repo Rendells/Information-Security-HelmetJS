@@ -1,0 +1,18 @@
+"Describe"
+You do not need to know how to configure, manage, or implement features - you need to know what the features are and what bussiness problems they slove.
+The goal of this exam is for you to understand what SCI challeneges can be sloved by what Microsoft solution. This is why it's a great learning challenege for everyone working in the Microsoft ecosystem.
+ALWAYS REVIEW THE DETAILED SKILLS MEASURED
+- Part of the Microsoft SC-900 Study guide
+DESCRIBE THE CONCEPTS OF SECURITY, COMPLIANCE, AND IDENTITY (10-15%)
+DESCRIBE SECURITY AND COMPLIANCE CONCEPTS
+- Describe the shared responsibility model
+- Describe defense in-depth
+- Describe the Zero Trust Model
+- Describe encryption and hashing
+- Describe Governance, Risk, and Compliance(GRC) concepts
+
+DEFINE IDENTITY CONCEPTS
+- Define identity as the primary security perimeter
+- Define authentication
+
+/* ---> develop.microsoft.com/en-us/mircrosoft-365/dev-program <-- */
