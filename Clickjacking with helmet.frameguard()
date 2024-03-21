@@ -1,0 +1,39 @@
+/*<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web App</title>
+</head> 
+
+<style>
+  iframe {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 000000;
+    height: 100%;
+  }
+</style>
+<body>
+  <iframe src="http://fcchelmet2.glitch.me/">
+    <p>Please upgrade your Web to suppor iframes,</p>
+  </iframe>
+</body>
+</html>
+This is a pratice web app*/ 
+
+Your page could be put in a <frame> or <iframe> without your consent. 
+This can result in clickjacking attacks, among other things. Clickjacking is a technique of tricking a user into interacting with a page different from what the user thinks it is. 
+This can be obtained by executing your page in a malicious context, by means of iframing. In that context, a hacker can put a hidden layer over your page. 
+Hidden buttons can be used to run bad scripts. This middleware sets the X-Frame-Options header. It restricts who can put your site in a frame. It has three modes: DENY, SAMEORIGIN, and ALLOW-FROM.
+We don’t need our app to be framed.
+Use helmet.frameguard() passing with the configuration object {action: 'deny'}.
+/* --> https://excited-florentine-opossum.glitch.me <-- This is the answer that is submitted on myApp.js glitch */
