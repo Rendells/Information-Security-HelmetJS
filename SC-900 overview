@@ -16,3 +16,27 @@ DEFINE IDENTITY CONCEPTS
 - Define authentication
 
 /* ---> develop.microsoft.com/en-us/mircrosoft-365/dev-program <-- */
+
+// 03-21-24
+COMBINATION OF TOOLS AND SERVICES
+- Zero Trust-based access control
+- Real-time risk scoring
+- Threat and vulnerability
+- Discovering sharing risks
+- Technical policies
+- Threat modeling
+
+MICROSOF DEFENDER FOR CLOUD
+A cloud-natice application protection platform that is made up of security measures and practices that are designed to protect coloud-based applications from various cyber threats and culernabilities
+
+CONTROL DOMAIN
+High-level description of a feature or activity that needs to be addressed and isn't specific to a technology or implementation
+
+MAPPING TO INDUSTRY FRAMEWORKS
+Mapping to CIS, NIST, or payment card industry data securtiy standards (PCI DD) frameworks
+
+RECOMMEND ATION
+Each control area has multiple recommendations on how to secure your cloud resources, EX Establish network segmentation boundaris
+
+AZURE GUIDANCE
+Technical instructions on how to implemnet the recommendation in Azure
