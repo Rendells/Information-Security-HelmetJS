@@ -40,3 +40,28 @@ Each control area has multiple recommendations on how to secure your cloud resou
 
 AZURE GUIDANCE
 Technical instructions on how to implemnet the recommendation in Azure
+
+
+
+03-26-24
+SAFEGUARD AND RESPECT PRIVACY WITH MICROSOFT PRIVA
+- Intro to Priva risk managmanet and rights request
+
+Introduction Microsoft Priva hhelps companies safeguard personal data and build a privacy-resilient workplace by proactively identifing and protecting against privacy risk such as data hoarding, data trasfers, and data oversharing, empowering information workers
+to make smar data handling decisions, and automating ansd mmanaging subject request at scale.
+How it helps, practively identify and protect against privacy rish such as data hoarding. problematic.
+
+Priva privacy Risk management in Microsoft Priva gives you the capability to set up policies that identify privacy risk in your Microsoft 365 enviroment.
+- Exchange Online
+- SharePoint Online
+- OneDrive for Business
+- Microsoft Teams
+
+Create a Subject Rights Request
+- Create a subject reight request with the information you have
+- Name
+- Residency
+- Relationship
+- Customer
+- Current/Former employee
+
